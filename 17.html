@@ -1,0 +1,49 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+                var n = +prompt();
+                var c=0;
+                var sum =0;
+                var temp1=n;
+                var temp2=n;
+                
+                while(n>0  ){
+                rem= n%10;
+                
+                n=parseInt(n/10)
+                c= c+1
+                }
+                
+                
+                while(temp1>0)
+                {
+                  var rem1 = temp1%10
+                  sum= rem1**c+sum
+                  temp1= parseInt(temp1/10)
+                }
+                if(temp2==sum){
+                    console.log("it is a amstorme number")
+                }
+                else{
+                    
+                    console.log("it is not a amstorme number")
+                }
+
+                
+
+
+                
+                
+               
+                
+                
+                
+            
+               
+
+            
+            
+        </script>
+    </body>
+</html>

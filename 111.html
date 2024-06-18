@@ -1,0 +1,29 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function empoly(n,d,p){
+                this.name=n;
+                this.dob=d;
+                this.place=p;
+                     this.getAge=function (){
+                        var empt = (new Date(this.dob)).getTime()
+                        var tt=(new Date()).getTime()
+                        console.log((tt-empt)/(1000*60*60*24*365))
+
+                    } 
+            } 
+              var emp1= new empoly("lakshman","01/10/2002","telaprolu")
+              var emp2= new empoly("ramu","01/10/2000","telaprolu")
+              emp1. getAge()
+              emp2.getAge()
+              console.log(emp1)
+              console.log(emp2)
+ 
+          
+
+
+              
+        </script>
+    </body>
+</html>

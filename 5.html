@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function rev(n){
+                var rem = 0;
+                
+                while(n>0){
+                     var rem2= n%10;
+                    rem = rem*10+rem2;
+                     n = parseInt(n/10);
+                   
+                }
+                  return rem
+                }
+                 
+                var reverse = rev(12345);
+                console.log(reverse);
+            
+        </script>
+    </body>
+</html>
